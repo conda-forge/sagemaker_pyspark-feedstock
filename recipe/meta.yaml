@@ -1,5 +1,5 @@
 {% set name = "sagemaker_pyspark" %}
-{% set version = "1.2.8" %}
+{% set version = "1.2.8.post0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2f2fa0f8e8befe9253ff7c943f29313afb847a9ac8b7dd58187147a11bfe9478
+  sha256: 1aaf97b6fea8bd119b1358a0b8204b83ff664a743b48a215cc79012cf387812e
 
 build:
   noarch: python
@@ -38,7 +38,7 @@ about:
   license_file:
     - licenses/LICENSE-hadoop.txt
     - licenses/LICENSE-htrace.txt
-  summary: 'Amazon SageMaker PySpark Bindings'
+  summary: Amazon SageMaker PySpark Bindings
   dev_url: https://github.com/aws/sagemaker-spark
 
 extra:
