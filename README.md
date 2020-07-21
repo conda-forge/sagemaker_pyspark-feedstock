@@ -5,7 +5,7 @@ Home: https://github.com/aws/sagemaker-spark
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Amazon SageMaker PySpark Bindings
 
