@@ -1,5 +1,5 @@
 {% set name = "sagemaker_pyspark" %}
-{% set version = "1.4.2" %}
+{% set version = "1.4.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 178bcdd07df6d0631d469038e62329d32ea376a321c3a7ad3b88884b49be4ed1
+  sha256: 05ca2d5081d7138ce29a8fb0a9cba077f28c825288ed07aed46a82e63c0bf1fb
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
